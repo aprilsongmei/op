@@ -1,0 +1,50 @@
+@media (max-width: 414px) { 
+  .welcome_area{
+    background-image: url(../img/pexels-photo-414.jpg)
+  }
+}
+@media (min-width: 415px) and (max-width: 768px) { 
+  .welcome_area{
+    background-image: url(../img/pexels-photo-768.jpg)
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .welcome_area{
+    background-image: url(../img/pexels-photo-1024.jpg)
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .welcome_area{
+    background-image: url(../img/nature-galaxy-1280.jpg)
+  }
+}
+@media (min-width: 1367px) and (max-width: 1400px) {
+  .welcome_area{
+    background-image: url(../img/nature-galaxy-1400.jpg)
+  }
+}
+@media (min-width: 1401px) and (max-width: 1440px) {
+  .welcome_area{
+    background-image: url(../img/nature-galaxy-1440.jpg)
+  }
+}
+@media (min-width: 1441px) and (max-width: 1600px) {
+  .welcome_area{
+    background-image: url(../img/nature-galaxy-1600.jpg)
+  }
+}
+@media (min-width: 1601px) and (max-width: 1680px) {
+  .welcome_area{
+    background-image: url(../img/nature-galaxy-1680.jpg)
+  }
+}
+@media (min-width: 1681px) and (max-width: 1920px) {
+  .welcome_area{
+    background-image: url(../img/nature-galaxy-1920.jpg)
+  }
+}
+@media (min-width: 1921px) {
+  .welcome_area{
+    background-image: url(../img/nature-galaxy-milky-way-night-567584.jpeg)
+  }
+}

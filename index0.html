@@ -6,14 +6,13 @@
   <meta name="description" content="">
   <meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="keywords" content="SharpToken, blockchain, cryptocurrency, Singapore">
-  <meta name="description" content="SharpToken Capital Pte.Ltd. is registered in Singapore, working on blockchain underlying technology development.">
+  
   <!-- Title -->
   <title>SharpToken</title>
   <!-- Favicon -->
   <link rel="icon" href="favicon.ico">
   <!-- Core Stylesheet -->
-  <link href="css/blink4.css?20180530" rel="stylesheet">
+  <link href="css/blink4.css?20180510" rel="stylesheet">
   <link href="css/responsive.css" rel="stylesheet">
 </head>
 
@@ -102,11 +101,22 @@
         <!-- About Content Area -->
         <div class="col-12 col-md-6">
           <h2>About Us</h2>
-          <p>SharpToken Capital Pte.Ltd. is registered in Singapore, dedicated to investments in new technologies and blockchain fields, including blockchain underlying technologies investment, blockchain business scenes investment, blockchain industry ecology investment, and blockchain innovation investment and so on. The team members entered this field since from 2011 and have rich experience and profound insights in cryptocurrency and blockchain industry.
+          <p>SharpToken Capital Pte.Ltd. is registered in Singapore, dedicated to investments in new technologies and blockchain
+            fields, including blockchain underlying technologies investment, blockchain business scenes investment, blockchain
+            industry ecology investment, and blockchain innovation investment and so on. The team members entered into this
+            field since from 2011 and have rich experience and profound insights in cryptocurrency and blockchain industry.
           </p>
-          <p>SharpToken focuses on early or private round investment in creative and promising projects, especially those working on blockchain underlying technology development. </p>
+          <p>SharpToken focuses on early or private round investment in creative and promising projects, especially those working
+            on blockchain underlying technology development. </p>
+          <div class="input-group" style="max-width:50vw;">
+            <div class="input-group-prepend">
+              <span class="input-group-text">bg</span>
+            </div>
+            <input type="text" class="form-control btn-dark" v-model="imgUrl">
+          </div>
         </div>
         <div class="col-12 col-md-6">
+          
         </div>
       </div>
     </div>
@@ -119,17 +129,20 @@
         <div class="col-12 text-center">
           <!-- Heading Text  -->
           <div class="section-heading">
-            <h2>SharpToken.Team</h2>            
-            <p>key members</p>
+            <h2>SharpToken.Team</h2>
+            <p></p>
           </div>
         </div>
       </div>
-      <div class="row text-center">
+      <div class="row">
         <!-- Single Team Member -->
-        <div class="col-12 col-sm-6 col-lg-4" v-for="single in singles">
+        <div class="col-12 col-sm-6 col-lg-3" v-for="single in singles">
           <div class="single-team-member text-center">
             <div class="member-image">
-              <img class="lazyload" v-lazy="single.image">
+              <img class="lazyload" v-lazy="single.image" alt="">
+              <!-- Overlay -->
+              <div class="team-overlay-effect">
+              </div>
             </div>
             <div class="member-text">
               <h4>{{ single.name }}</h4>
@@ -149,7 +162,7 @@
           <!-- Heading Text -->
           <div class="section-heading text-center">
             <h2>SharpToken.Projects</h2>
-            <p>some are invested by the founders as individual</p>
+            <p style="font-size: 14px">some are invested by the founders as individual</p>
           </div>
         </div>
       </div>
@@ -179,17 +192,21 @@
               <a href="mailto:contact@sharptoken.com">contact@sharptoken.com</a>
             </p>
             <p>
-              <i class="fa fa-globe" aria-hidden="true"></i> 2 Venture Drive, 11-30, Vision Exchange, Singapore, 608526</p>
+              <i class="fa fa-globe" aria-hidden="true"></i> 2 Venture Drive, 11-30, Vision Exchange, Singapore, 608526</p>              
+              <div class="input-group" style="max-width:35vw;">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">bg</span>
+                </div>
+                <input type="text" class="form-control btn-dark" v-model="imgUrl">
+              </div>
           </div>
         </div>
       </div>
     </div>
   </section>
   <!-- ***** contact Area End ***** -->
-  <section class="cool_facts_do_area clearfix" >
-  </section>
   <!-- ***** Cool Facts Area Start ***** -->
-  <section class="cool_facts_do_area section_padding_90_50 clearfix" v-lazy:background-image.container="imgUrl" style="background-image:url('img/subscrib-1.jpg');">
+  <section class="cool_facts_do_area section_padding_90_50 clearfix jarallax" v-lazy:background-image.container="imgUrl">
     <div class="container">
       <div class="row">
         <div class="col-12 col-sm-6 col-lg-3">
@@ -260,6 +277,12 @@
           </div>
         </div>
       </div>
+      <div class="input-group" style="max-width:40vw;">
+        <div class="input-group-prepend">
+          <span class="input-group-text">bg</span>
+        </div>
+        <input type="text" class="form-control btn-dark" v-model="imgUrl">
+      </div>
     </div>
   </section>
   <!-- ***** Cool Facts Area End ***** -->
@@ -270,12 +293,18 @@
       <div class="row">
         <div class="col-12 col-md-10 col-lg-8">
           <!-- Subscribe Content Text -->
-          <div class="download_apps_content">
-            <h2 class="wow fadeInRight" data-wow-duration="3s" data-wow-delay="0s">Trust's laws hid in night;</h2>
-            <h2 class="wow fadeInRight" data-wow-duration="4.5s" data-wow-delay="1.5s">God said,"let Satoshi be!" and all was light</h2>
-            <p class="wow fadeInUp" data-wow-duration="6s" data-wow-delay="2s">
+          <div class="goodbye_content">
+            <h2>Trust's laws hid in night;</h2>
+            <h2>God said,"let Satoshi be!" and all was light</h2>
+            <p>
               <br>We know that the great figures often turn out inadvertently to push forward the history progress. SharpToken
               Capital sincerely looks forward to encountering with prominent programs, achieving our common cause and dreams.</p>
+              <div class="input-group" style="max-width:50vw;">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">bg</span>
+                </div>
+                <input type="text" class="form-control btn-dark" v-model="imgUrl">
+              </div>
           </div>
         </div>
       </div>
@@ -305,8 +334,8 @@
   <script src="js/particlesjs-config.json.js"></script>
   <script src="https://cdn.bootcss.com/vue/2.5.16/vue.min.js"></script>
   <script src="https://cdn.bootcss.com/vue-lazyload/1.2.3/vue-lazyload.js"></script>
-  <script type="text/javascript" src="js/db.js?20180530"></script>
+  <script type="text/javascript" src="js/db.js?20150510"></script>
   <!-- Active js -->
-  <script src="js/active.js?20180510"></script>
+  <script src="js/active.js?20150510"></script>
 </body>
 </html>
